@@ -1,0 +1,166 @@
+/*
+###############################################################
+######   Hand-crafted with love                          ######
+######   by Emanuele tenko Libralato                     ######
+######   April 2013, London                              ######
+###############################################################
+*/
+body,html{
+	font-family: "nimbus-sans",sans-serif;
+	padding:0;
+	margin:0;
+	height:100%;
+	background-color:rgb(200,70,70);
+	color:rgb(60,60,60);
+	font-size: 24px;
+}
+
+#content{
+	overflow: hidden;
+	min-height: 300px;
+	height:100%;
+	background-color:rgb(250,250,250);
+	border-bottom:2px solid rgb(180,50,50);
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAPklEQVQYV2P89evXfwYc4Ny5cwyMuBSAJI2MjLArgEmCDMYwAVkSQwG6JIoCbJJwBbgkwQpOnDjxH+RaXAAAZe8z24dvjNEAAAAASUVORK5CYII=
+		 ) repeat;
+}
+#resume,#contacts{
+	width:958px;
+	margin: auto;
+}
+#content p{
+	padding:0 15px;
+	margin: 0;
+	font-weight: 300;
+}
+#resume{
+	padding-top:30px;
+	background-image:url('img/happykraftwerk.png');
+	background-position:740px 60px;
+	background-repeat: no-repeat;
+	background-size:200px;
+	background-color:rgb(230,230,230);
+	min-height:100%;
+	border-left: 2px solid rgb(220,220,220);
+	border-right: 2px solid rgb(220,220,220);
+	box-shadow: 1px 0px 5px #888888; 
+}
+#resume header{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+
+#resume h1{
+	font-style: normal;
+	font-weight:700;
+	font-size: 44px;
+	padding:0 15px;
+	margin:0;
+}
+#resume h2{
+	margin:20px 0 10px 0; 
+	font-style: normal;
+	padding:0 15px;
+	font-weight: 400;
+}
+#resume span{
+	font-weight: 700;
+}
+
+#resume section{
+	margin-top: 30px;
+}
+
+#resume section{
+	margin-top: 30px;
+}
+
+#contacts{
+	color:rgb(230,230,230);
+
+
+}
+
+#contacts-content,#contacts-button{
+	position: absolute;
+	overflow: hidden;
+}
+
+#contacts-button{
+	bottom:-2px;
+	width:auto;
+	border-radius:5px 5px 0 0;
+	padding: 0 10px;
+	background-color:rgb(200,70,70);
+	border:2px solid rgb(180,50,50);
+	border-bottom: 2px solid rgb(200,70,70);
+	z-index: 10;
+	margin-left: 15px;
+	box-shadow: 1px -1px 2px #888888; 
+	cursor:pointer;
+
+}
+#contacts-button p{ 
+	font-weight:700;
+	font-size: 22px;
+	margin: 5px 0;
+	cursor:pointer;
+}
+#tags{
+	bottom:60px;
+	right: -100px;
+	position: relative;
+	overflow: hidden;
+	color: black;
+
+}
+
+#contacts-content{
+	min-height:200px;
+	bottom:-250px;
+	padding: 0 45px;
+}
+
+#contacts-content h1{
+	margin:0;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+#contacts-content ul{
+	list-style: none;
+	margin:10px 0 0 0 ;
+	padding: 0;
+	float: left;
+	display: inline-block;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+
+}
+
+#contacts-content li{
+	padding: 0;
+	margin: 0;
+
+}
+#name{
+	font-style: normal;
+}
+
+
+a {
+	text-decoration: none;
+	font-style: italic;
+}
+#resume a:link {color:rgb(150,70,70);}
+#resume a:visited{color:rgb(150,70,70);}
+#resume a:hover {color:rgb(60,60,60); font-weight: 500;}
+#resume a:active {color:rgb(150,70,70);}
+
+#contacts a:link {color:rgb(230,230,230);}
+#contacts a:visited{color:rgb(230,230,230);}
+#contacts a:hover {color:rgb(230,230,230); font-weight: 500; font-style: normal;}
+#contacts a:active {color:rgb(230,230,230);}
+
+
