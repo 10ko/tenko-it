@@ -1,3 +1,3 @@
-<h1>tenko.it<h1>
-<br>
+tenko.it
+========
 My personal website.
